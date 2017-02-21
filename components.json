@@ -1,0 +1,151 @@
+{
+  "library": "my-components",
+  "description": "myComponents",
+  "components": [
+    {
+      "description": "",
+      "methods": [],
+      "props": {
+        "friend": {
+          "type": {
+            "name": "object"
+          },
+          "required": false,
+          "description": ""
+        },
+        "styleObj": {
+          "type": {
+            "name": "object"
+          },
+          "required": false,
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/render-friend.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "displayName": "YourAwesomeComponent",
+      "methods": [
+        {
+          "name": "renderFriends",
+          "docblock": null,
+          "modifiers": [],
+          "params": [
+            {
+              "name": "friends",
+              "type": null
+            },
+            {
+              "name": "party",
+              "type": null
+            }
+          ],
+          "returns": null
+        },
+        {
+          "name": "viewState",
+          "docblock": null,
+          "modifiers": [],
+          "params": [
+            {
+              "name": "view",
+              "type": null
+            }
+          ],
+          "returns": null
+        },
+        {
+          "name": "houseParty",
+          "docblock": null,
+          "modifiers": [],
+          "params": [
+            {
+              "name": "invitees",
+              "type": null
+            },
+            {
+              "name": "party",
+              "type": null
+            }
+          ],
+          "returns": null
+        }
+      ],
+      "props": {
+        "ourFriends": {
+          "type": {
+            "name": "array"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "[]",
+            "computed": false
+          },
+          "description": ""
+        },
+        "message": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "() => {\n  return `<p>Let's party! Un-comment the all the commented-out lines in the\n    playground then check the boxes on the GuestList to invite our friends to the party!</p>`;\n}",
+            "computed": false
+          },
+          "description": ""
+        },
+        "invitees": {
+          "type": {
+            "name": "array"
+          },
+          "required": false,
+          "defaultValue": {
+            "value": "[]",
+            "computed": false
+          },
+          "description": ""
+        },
+        "view": {
+          "type": {
+            "name": "object"
+          },
+          "required": false,
+          "description": ""
+        },
+        "toggleGuest": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/myComponents.jsx",
+      "hasProps": true
+    },
+    {
+      "description": "",
+      "methods": [],
+      "props": {
+        "invitees": {
+          "type": {
+            "name": "array"
+          },
+          "required": false,
+          "description": ""
+        },
+        "toggleGuest": {
+          "type": {
+            "name": "func"
+          },
+          "required": false,
+          "description": ""
+        }
+      },
+      "fileName": "./src/components/guest-list.jsx",
+      "hasProps": true
+    }
+  ]
+}

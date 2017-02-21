@@ -1,0 +1,35 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+label { font-size: 2em; }
+input[type=checkbox] { display:none; }
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+input[type=checkbox] + label:before { content: "\f096"; }
+input[type=checkbox] + label:before { letter-spacing: 10px; }
+input[type=checkbox]:checked + label:before { content: "\f046"; }
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; }
+
+.guestList {
+  position: absolute;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.93);
+  left: 10%;
+  border: 2px solid whitesmoke;
+  display: inline-block;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 3em;
+  padding-top: 1.7em;
+  border-radius: 3px;
+  margin: 2em;
+}
+
+.guestList h1 {
+  font-size: 2.5em;
+}
+
+.guestName {
+  margin-bottom: .5em;
+}

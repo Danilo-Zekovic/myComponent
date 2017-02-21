@@ -1,0 +1,39 @@
+{
+  "name": "my-components",
+  "version": "1.0.0",
+  "description": "myComponents",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Danilo Zekovic",
+    "url": "https://github.com/Danilo-Zekovic"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//my-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com//my-components/issues"
+  },
+  "homepage": "https://github.com//my-components",
+  "dependencies": {},
+  "devDependencies": {
+    "electrode-archetype-react-component": "^1.0.0",
+    "electrode-archetype-react-component-dev": "^1.0.0",
+    "gulp": "^3.9.1"
+  },
+  "engines": {
+    "node": "^4.2.6",
+    "npm": "^3.5.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "start": "gulp demo",
+    "test": "gulp check"
+  },
+  "keywords": [
+    "react",
+    "electrode",
+    "electrode-component",
+    "react-component"
+  ]
+}
